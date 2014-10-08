@@ -3,7 +3,7 @@
   "theme": "syntax",
   "version": "0.1.0",
   "description": "A port of hcalves mustang theme to Atom",
-  "repository": "https://github.com/atom/mustang",
+  "repository": "https://github.com/ambidexterich/mustang",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
