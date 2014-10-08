@@ -1,0 +1,224 @@
+@import "syntax-variables";
+
+.editor {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+.editor .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+.editor .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+.editor .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+.editor .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+.editor .search-results .marker .region {
+  background-color: transparent;
+  border: @syntax-result-marker-color;
+}
+
+.editor .search-results .marker.current-result .region {
+  border: @syntax-result-marker-color-selected;
+}
+
+.editor.is-focused .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+.editor.is-focused .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+.editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
+  background-color: #2d2d2d;
+}
+
+.comment {
+  font-style: italic;
+  color: #808080;
+}
+
+.constant {
+  color: #FF9800;
+}
+
+.entity {
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.keyword {
+  color: #7E8AA2;
+}
+
+.storage {
+  color: #7E8AA2;
+}
+
+.string {
+  color: #b1d631;
+}
+
+.support {
+  color: #FAF4C6;
+}
+
+.variable {
+  color: #E2E2E5;
+}
+
+.invalid.deprecated {
+  font-style: italic;
+  text-decoration: underline;
+  color: #A2807E;
+}
+
+.invalid.illegal {
+  color: #F8F8F8;
+  background-color: rgba(86, 45, 86, 0.75);
+}
+
+.text .source {
+  background-color: #252525;
+}
+
+.text.html.ruby .source {
+  background-color: #2A2A2A;
+}
+
+.entity.other.inherited-class {
+  font-style: italic;
+  color: #9B5C2E;
+}
+
+.string .source {
+  color: #DAEFA3;
+}
+
+.string .constant {
+  color: #FF9800;
+}
+
+.string.regexp {
+  color: #7E8AA2;
+}
+
+.string.regexp .constant.character.escape, .string.regexp .source.ruby.embedded, .string.regexp .string.regexp.arbitrary-repitition {
+  color: #FF9800;
+}
+
+.string .variable {
+  color: #E2E2E5;
+}
+
+.support.function {
+  color: #FFFFFF;
+}
+
+.support.constant {
+  color: #FFFFFF;
+}
+
+.meta.preprocessor.c {
+  color: #7E8AA2;
+}
+
+.meta.preprocessor.c .keyword {
+  color: #FF9800;
+}
+
+.meta.tag.sgml.doctype, .meta.tag.sgml.doctype .entity, .meta.tag.sgml.doctype .string, .meta.tag.preprocessor.xml, .meta.tag.preprocessor.xml .entity, .meta.tag.preprocessor.xml .string {
+  color: #FF9800;
+}
+
+.declaration.tag, .declaration.tag .entity, .meta.tag, .meta.tag .entity {
+  color: #7E8AA2;
+}
+
+.declaration.tag.inline, .declaration.tag.inline .entity, .source .entity.name.tag, .source .entity.other.attribute-name, .meta.tag.inline, .meta.tag.inline .entity {
+  color: #7E8AA2;
+}
+
+.meta.selector.css .entity.name.tag {
+  color: #7E8AA2;
+}
+
+.meta.selector.css .entity.other.attribute-name.tag.pseudo-class {
+  color: #E2E2E5;
+}
+
+.meta.selector.css .entity.other.attribute-name.id {
+  color: #7E8AA2;
+}
+
+.meta.selector.css .entity.other.attribute-name.class {
+  color: #7E8AA2;
+}
+
+.support.type.property-name.css {
+  color: #E2E2E5;
+}
+
+.meta.property-group .support.constant.property-value.css, .meta.property-value .support.constant.property-value.css {
+  color: #B1D631;
+}
+
+.meta.preprocessor.at-rule .keyword.control.at-rule {
+  color: #FF9800;
+}
+
+.meta.property-value .support.constant.named-color.css, .meta.property-value .constant {
+  color: #FF9800;
+}
+
+.meta.constructor.argument.css {
+  color: #8F9D6A;
+}
+
+.meta.diff, .meta.diff.header, .meta.separator {
+  font-style: italic;
+  color: #E2E2E5;
+  background-color: #0E2231;
+}
+
+.markup.deleted {
+  color: #E2E2E5;
+  background-color: #361f1f;
+}
+
+.markup.changed {
+  color: #E2E2E5;
+  background-color: #1d2638;
+}
+
+.markup.inserted {
+  color: #E2E2E5;
+  background-color: #1d381e;
+}
+
+.markup.list {
+  color: #FAF4C6;
+}
+
+.markup.heading {
+  color: #E2E2E5;
+}
