@@ -1,7 +1,7 @@
 {
   "name": "mustang",
   "theme": "syntax",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "A port of hcalves mustang theme to Atom",
   "repository": "https://github.com/ambidexterich/mustang",
   "license": "MIT",
